@@ -2,7 +2,7 @@
 
 # Meetapp
 
-Final React Native project developed at the GoStack bootcamp. Mobile version of the application for meetups appointments.
+Final React Native project developed at the GoStack bootcamp. Mobile version of the application for meetup appointments.
 
 Techs:
 
