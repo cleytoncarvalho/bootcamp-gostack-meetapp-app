@@ -20,6 +20,7 @@ import {
 
 import Header from '~/components/Header';
 import Meetup from '~/components/Meetup';
+import DatePicker from '~/components/DatePicker';
 
 const Dashboard = ({ isFocused }) => {
   const [loading, setLoading] = useState(false);
@@ -99,7 +100,12 @@ const Dashboard = ({ isFocused }) => {
           <Icon name="chevron-left" size={30} color="#fff" />
         </TouchableOpacity>
 
-        <DateSelectorText>{dateFormatted}</DateSelectorText>
+        <DatePicker
+          date={date}
+          onChange={selectedDate => setDate(selectedDate)}
+        >
+          <DateSelectorText>{dateFormatted}</DateSelectorText>
+        </DatePicker>
 
         <TouchableOpacity onPress={handleNextDay}>
           <Icon name="chevron-right" size={30} color="#fff" />
