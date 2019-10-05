@@ -40,7 +40,7 @@ const Dashboard = ({ isFocused }) => {
         setLoading(true);
 
         const response = await api.get('/meetups', {
-          params: { page, per_page: 2, date },
+          params: { page, per_page: 6, date },
         });
 
         const data = response.data.meetups.map(m => {

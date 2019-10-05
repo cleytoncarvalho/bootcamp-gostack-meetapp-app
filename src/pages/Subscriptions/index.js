@@ -24,7 +24,7 @@ const Subscriptions = ({ isFocused }) => {
       setLoading(true);
 
       const response = await api.get('/subscriptions', {
-        params: { page, per_page: 2 },
+        params: { page, per_page: 6 },
       });
 
       const data = response.data.subscriptions.map(m => {
