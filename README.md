@@ -1,10 +1,12 @@
 ![Meetapp](docs/cover.jpg?raw=true 'Meetapp')
 
-# Meetapp
+# Learning - React Native
 
-Final React Native project developed at the GoStack bootcamp. Mobile version of the application for meetup appointments.
+:us: Project part of the bootcamp Gostack from Rocketseat. Mobile version of the application for meetup appointments.
 
-Techs:
+:brazil: Projeto parte do bootcamp Gostack da Rocketseat. Versão móvel da aplicação para agendar encontros.
+
+:toolbox: Used in this project:
 
 - React Native
 - React Hooks
